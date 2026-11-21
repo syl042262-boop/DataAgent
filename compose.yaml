@@ -1,0 +1,71 @@
+name: dataagent-python
+
+services:
+  mysql:
+    image: mysql:8.4
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_bin"]
+    environment:
+      MYSQL_DATABASE: dataagent_python
+      MYSQL_USER: dataagent
+      MYSQL_PASSWORD: ${DATAAGENT_MYSQL_PASSWORD:-dataagent_local}
+      MYSQL_RANDOM_ROOT_PASSWORD: "yes"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "MYSQL_PWD=\"$$MYSQL_PASSWORD\" mysql -h 127.0.0.1 -u \"$$MYSQL_USER\" \"$$MYSQL_DATABASE\" -e 'SELECT 1'"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+
+  backend:
+    build: ./PYTHON
+    environment:
+      DATAAGENT_DATABASE_URL: "mysql+pymysql://dataagent:${DATAAGENT_MYSQL_PASSWORD:-dataagent_local}@mysql:3306/dataagent_python?charset=utf8mb4"
+      DATAAGENT_REDIS_URL: redis://redis:6379/0
+      DATAAGENT_DATA_DIR: /app/data
+    volumes:
+      - backend-data:/app/data
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "from urllib.request import urlopen; urlopen('http://127.0.0.1:8065/echo/ok', timeout=3).close()"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+
+  frontend:
+    build:
+      context: ./JAVA/data-agent-frontend-nuxt
+      args:
+        DATAAGENT_PROXY_TARGET: http://backend:8065
+    environment:
+      NUXT_PUBLIC_BACKEND: python
+    ports:
+      - "127.0.0.1:${DATAAGENT_WEB_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/model-config/list', { signal: AbortSignal.timeout(3000) }).then(response => { if (!response.ok) process.exit(1) }).catch(() => process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+
+volumes:
+  mysql-data:
+  redis-data:
+  backend-data:

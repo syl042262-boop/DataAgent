@@ -1,0 +1,167 @@
+/*
+ * Copyright 2026 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* Shared tokens keep navigation, forms and analysis views visually consistent. */
+:root {
+	--app-canvas: #ffffff;
+	--app-surface: #ffffff;
+	--app-ink: #25372d;
+	--app-muted: #7a867e;
+	--app-line: #e3eae5;
+	--app-accent: #24734d;
+}
+body,
+.v-application {
+	font-family: 'Microsoft YaHei', 'PingFang SC', 'DengXian', sans-serif;
+	color: var(--app-ink);
+	line-height: 1.6;
+}
+.page-shell {
+	padding: 32px;
+	max-width: 1440px;
+	margin-inline: auto;
+}
+.search-field .v-field__outline {
+	--v-field-border-color: var(--app-line);
+}
+.custom-label {
+	font-size: 0.75rem;
+	font-weight: 600;
+	color: var(--app-muted);
+	margin-bottom: 6px;
+	display: block;
+}
+.breathing-dot,
+.breathing-dot-green {
+	width: 7px;
+	height: 7px;
+	background: #278466;
+	border-radius: 50%;
+	margin-right: 7px;
+	display: inline-block;
+}
+.v-application .v-btn {
+	text-transform: none;
+	letter-spacing: 0;
+	font-weight: 500;
+}
+.v-application .v-field {
+	border-radius: 8px;
+}
+.v-application .v-card {
+	border-color: var(--app-line);
+}
+:where(button, a, input, textarea, [tabindex]):focus-visible {
+	outline: 2px solid var(--app-accent);
+	outline-offset: 3px;
+}
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.12s ease;
+}
+.page-enter-from,
+.page-leave-to {
+	opacity: 0;
+}
+@media (max-width: 600px) {
+	.page-shell {
+		padding: 20px 16px;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Product surfaces: white content, quiet controls and clear green actions. */
+.v-application {
+	background: var(--app-canvas);
+}
+.v-application .text-h4 {
+	font-size: 26px !important;
+	letter-spacing: -0.6px !important;
+	color: var(--app-ink);
+}
+.v-application .text-h5 {
+	font-size: 22px !important;
+}
+.v-application .v-btn {
+	font-size: 13px;
+}
+.v-application .v-btn--variant-outlined {
+	border-color: #dce5df;
+}
+.v-application .v-btn--variant-flat.bg-primary {
+	color: white;
+}
+.v-application .v-field__outline {
+	--v-field-border-opacity: 0.22;
+}
+.v-application .v-table {
+	color: #3e5145;
+	font-size: 13px;
+}
+.v-application .v-data-table th {
+	background: #f9fbf9;
+	color: #819086;
+	font-size: 12px;
+	font-weight: 500 !important;
+	height: 48px !important;
+}
+.v-application .v-data-table td {
+	border-color: #edf1ee !important;
+	height: 72px !important;
+}
+.v-application .v-chip {
+	font-size: 11px;
+}
+.v-application .v-card {
+	box-shadow: none;
+}
+.agents-container,
+.page-shell {
+	max-width: 1440px;
+	margin-inline: auto;
+}
+.agents-container > header {
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.agents-container > header p {
+	margin-top: 8px;
+}
+@media (min-width: 1000px) {
+	.page-shell,
+	.agents-container {
+		padding: 40px 48px !important;
+	}
+}
+@media (max-width: 650px) {
+	.agents-container,
+	.page-shell {
+		padding: 24px 18px !important;
+	}
+	.filter-toggle {
+		max-width: 100%;
+		overflow-x: auto;
+	}
+}

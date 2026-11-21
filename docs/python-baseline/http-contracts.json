@@ -1,0 +1,1331 @@
+[
+  {
+    "id": 1,
+    "method": "GET",
+    "path": "/api/agent/list",
+    "ticket": 2,
+    "parameters": "@RequestParam(value = \"status\", required = false) String status, @RequestParam(value = \"keyword\", required = false) String keyword",
+    "response": "List<Agent>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 2,
+    "method": "GET",
+    "path": "/api/agent/{id}",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "Agent",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 3,
+    "method": "POST",
+    "path": "/api/agent",
+    "ticket": 2,
+    "parameters": "@RequestBody Agent agent",
+    "response": "Agent",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 4,
+    "method": "PUT",
+    "path": "/api/agent/{id}",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id, @RequestBody Agent agent",
+    "response": "Agent",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 5,
+    "method": "DELETE",
+    "path": "/api/agent/{id}",
+    "ticket": 8,
+    "parameters": "@PathVariable Long id",
+    "response": "void",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 6,
+    "method": "POST",
+    "path": "/api/agent/{id}/publish",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "Agent",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 7,
+    "method": "POST",
+    "path": "/api/agent/{id}/offline",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "Agent",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 8,
+    "method": "GET",
+    "path": "/api/agent/{id}/api-key",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "ApiResponse<ApiKeyResponse>",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 9,
+    "method": "POST",
+    "path": "/api/agent/{id}/api-key/generate",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "ApiResponse<ApiKeyResponse>",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 10,
+    "method": "POST",
+    "path": "/api/agent/{id}/api-key/reset",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "ApiResponse<ApiKeyResponse>",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 11,
+    "method": "DELETE",
+    "path": "/api/agent/{id}/api-key",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id",
+    "response": "ApiResponse<ApiKeyResponse>",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 12,
+    "method": "POST",
+    "path": "/api/agent/{id}/api-key/enable",
+    "ticket": 2,
+    "parameters": "@PathVariable Long id, @RequestParam(\"enabled\") boolean enabled",
+    "response": "ApiResponse<ApiKeyResponse>",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
+  },
+  {
+    "id": 13,
+    "method": "POST",
+    "path": "/api/agent/{agentId}/datasources/init",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId",
+    "response": "ApiResponse<?>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 14,
+    "method": "GET",
+    "path": "/api/agent/{agentId}/datasources",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId",
+    "response": "ApiResponse<List<AgentDatasource>>",
+    "http": [
+      200,
+      400
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 15,
+    "method": "GET",
+    "path": "/api/agent/{agentId}/datasources/active",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId",
+    "response": "ApiResponse<AgentDatasource>",
+    "http": [
+      200,
+      400
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 16,
+    "method": "POST",
+    "path": "/api/agent/{agentId}/datasources/{datasourceId}",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId, @PathVariable Integer datasourceId",
+    "response": "ApiResponse<AgentDatasource>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 17,
+    "method": "POST",
+    "path": "/api/agent/{agentId}/datasources/tables",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId, @RequestBody @Validated UpdateDatasourceTablesDTO dto",
+    "response": "ApiResponse<?>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 18,
+    "method": "DELETE",
+    "path": "/api/agent/{agentId}/datasources/{datasourceId}",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId, @PathVariable Integer datasourceId",
+    "response": "ApiResponse<?>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 19,
+    "method": "PUT",
+    "path": "/api/agent/{agentId}/datasources/toggle",
+    "ticket": 2,
+    "parameters": "@PathVariable Long agentId, @RequestBody ToggleDatasourceDTO dto",
+    "response": "ApiResponse<AgentDatasource>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
+  },
+  {
+    "id": 20,
+    "method": "GET",
+    "path": "/api/agent-knowledge/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(\"id\") Integer id",
+    "response": "ApiResponse<AgentKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 21,
+    "method": "POST",
+    "path": "/api/agent-knowledge/create",
+    "ticket": 6,
+    "parameters": "@RequestPart(\"agentId\") String agentId, @RequestPart(\"title\") String title, @RequestPart(\"type\") String type, @RequestPart(value = \"question\", required = false) String question, @RequestPart(value = \"content\", required = false) String content, @RequestPart(value = \"file\", required = false) FilePart filePart, @RequestPart(value = \"splitterType\", required = false) String splitterType",
+    "response": "Mono<ApiResponse<AgentKnowledgeVO>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 22,
+    "method": "PUT",
+    "path": "/api/agent-knowledge/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(\"id\") Integer id, @RequestBody UpdateKnowledgeDTO updateKnowledgeDto",
+    "response": "ApiResponse<AgentKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 23,
+    "method": "PUT",
+    "path": "/api/agent-knowledge/recall/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable Integer id, @RequestParam(value = \"isRecall\") Boolean isRecall",
+    "response": "ApiResponse<AgentKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 24,
+    "method": "DELETE",
+    "path": "/api/agent-knowledge/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(\"id\") Integer id",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 25,
+    "method": "POST",
+    "path": "/api/agent-knowledge/query/page",
+    "ticket": 6,
+    "parameters": "@Valid @RequestBody AgentKnowledgeQueryDTO queryDTO",
+    "response": "PageResponse<List<AgentKnowledgeVO>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 26,
+    "method": "POST",
+    "path": "/api/agent-knowledge/retry-embedding/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable Integer id",
+    "response": "ApiResponse<AgentKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
+  },
+  {
+    "id": 27,
+    "method": "GET",
+    "path": "/api/agent/{agentId}/preset-questions",
+    "ticket": 2,
+    "parameters": "@PathVariable(value = \"agentId\") Long agentId",
+    "response": "ResponseEntity<List<AgentPresetQuestion>>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
+    "sha256": "ddb90d55c760ca47d27c088065e276e1f87376da7d42e39ce45d4d486db1b5a9"
+  },
+  {
+    "id": 28,
+    "method": "POST",
+    "path": "/api/agent/{agentId}/preset-questions",
+    "ticket": 2,
+    "parameters": "@PathVariable(value = \"agentId\") Long agentId, @RequestBody List<Map<String, Object>> questionsData",
+    "response": "ResponseEntity<Map<String, String>>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
+    "sha256": "ddb90d55c760ca47d27c088065e276e1f87376da7d42e39ce45d4d486db1b5a9"
+  },
+  {
+    "id": 29,
+    "method": "DELETE",
+    "path": "/api/agent/{agentId}/preset-questions/{questionId}",
+    "ticket": 2,
+    "parameters": "@PathVariable(value = \"agentId\") Long agentId, @PathVariable Long questionId",
+    "response": "ResponseEntity<Map<String, String>>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
+    "sha256": "ddb90d55c760ca47d27c088065e276e1f87376da7d42e39ce45d4d486db1b5a9"
+  },
+  {
+    "id": 30,
+    "method": "GET",
+    "path": "/api/business-knowledge",
+    "ticket": 6,
+    "parameters": "@RequestParam(value = \"agentId\") String agentIdStr, @RequestParam(value = \"keyword\", required = false) String keyword",
+    "response": "ApiResponse<List<BusinessKnowledgeVO>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 31,
+    "method": "GET",
+    "path": "/api/business-knowledge/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id",
+    "response": "ApiResponse<BusinessKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 32,
+    "method": "POST",
+    "path": "/api/business-knowledge",
+    "ticket": 6,
+    "parameters": "@RequestBody @Validated CreateBusinessKnowledgeDTO knowledge",
+    "response": "ApiResponse<BusinessKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 33,
+    "method": "PUT",
+    "path": "/api/business-knowledge/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id, @RequestBody UpdateBusinessKnowledgeDTO knowledge",
+    "response": "ApiResponse<BusinessKnowledgeVO>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 34,
+    "method": "DELETE",
+    "path": "/api/business-knowledge/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 35,
+    "method": "POST",
+    "path": "/api/business-knowledge/recall/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id, @RequestParam(value = \"isRecall\") Boolean isRecall",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 36,
+    "method": "POST",
+    "path": "/api/business-knowledge/refresh-vector-store",
+    "ticket": 6,
+    "parameters": "@RequestParam(value = \"agentId\") String agentId",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 37,
+    "method": "POST",
+    "path": "/api/business-knowledge/retry-embedding/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
+  },
+  {
+    "id": 38,
+    "method": "GET",
+    "path": "/api/agent/{id}/sessions",
+    "ticket": 3,
+    "parameters": "@PathVariable(value = \"id\") Integer id",
+    "response": "ResponseEntity<List<ChatSession>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 39,
+    "method": "POST",
+    "path": "/api/agent/{id}/sessions",
+    "ticket": 3,
+    "parameters": "@PathVariable(value = \"id\") Integer id, @RequestBody(required = false) Map<String, Object> request",
+    "response": "ResponseEntity<ChatSession>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 40,
+    "method": "DELETE",
+    "path": "/api/agent/{id}/sessions",
+    "ticket": 8,
+    "parameters": "@PathVariable(value = \"id\") Integer id",
+    "response": "ResponseEntity<ApiResponse>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 41,
+    "method": "GET",
+    "path": "/api/sessions/{sessionId}/messages",
+    "ticket": 5,
+    "parameters": "@PathVariable(value = \"sessionId\") String sessionId",
+    "response": "ResponseEntity<List<ChatMessage>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 42,
+    "method": "POST",
+    "path": "/api/sessions/{sessionId}/messages",
+    "ticket": 5,
+    "parameters": "@PathVariable(value = \"sessionId\") String sessionId, @RequestBody ChatMessageDTO request",
+    "response": "ResponseEntity<ChatMessage>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 43,
+    "method": "PUT",
+    "path": "/api/sessions/{sessionId}/pin",
+    "ticket": 5,
+    "parameters": "@PathVariable(value = \"sessionId\") String sessionId, @RequestParam(value = \"isPinned\") Boolean isPinned",
+    "response": "ResponseEntity<ApiResponse>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 44,
+    "method": "PUT",
+    "path": "/api/sessions/{sessionId}/rename",
+    "ticket": 5,
+    "parameters": "@PathVariable(value = \"sessionId\") String sessionId, @RequestParam(value = \"title\") String title",
+    "response": "ResponseEntity<ApiResponse>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 45,
+    "method": "DELETE",
+    "path": "/api/sessions/{sessionId}",
+    "ticket": 8,
+    "parameters": "@PathVariable(value = \"sessionId\") String sessionId",
+    "response": "ResponseEntity<ApiResponse>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 46,
+    "method": "POST",
+    "path": "/api/sessions/{sessionId}/reports/html",
+    "ticket": 7,
+    "parameters": "@PathVariable(value = \"sessionId\") String sessionId, @RequestBody String content",
+    "response": "ResponseEntity<byte[]>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
+  },
+  {
+    "id": 47,
+    "method": "GET",
+    "path": "/api/datasource/types",
+    "ticket": 2,
+    "parameters": "",
+    "response": "ApiResponse<List<DatasourceTypeDTO>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 48,
+    "method": "GET",
+    "path": "/api/datasource",
+    "ticket": 2,
+    "parameters": "@RequestParam(value = \"status\", required = false) String status, @RequestParam(value = \"type\", required = false) String type",
+    "response": "List<Datasource>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 49,
+    "method": "GET",
+    "path": "/api/datasource/{id}",
+    "ticket": 2,
+    "parameters": "@PathVariable Integer id",
+    "response": "Datasource",
+    "http": [
+      200,
+      404
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 50,
+    "method": "GET",
+    "path": "/api/datasource/{id}/tables",
+    "ticket": 2,
+    "parameters": "@PathVariable Integer id",
+    "response": "List<String>",
+    "http": [
+      200,
+      404,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 51,
+    "method": "POST",
+    "path": "/api/datasource",
+    "ticket": 2,
+    "parameters": "@RequestBody Datasource datasource",
+    "response": "Datasource",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 52,
+    "method": "PUT",
+    "path": "/api/datasource/{id}",
+    "ticket": 2,
+    "parameters": "@PathVariable Integer id, @RequestBody Datasource datasource",
+    "response": "Datasource",
+    "http": [
+      200,
+      404,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 53,
+    "method": "DELETE",
+    "path": "/api/datasource/{id}",
+    "ticket": 2,
+    "parameters": "@PathVariable Integer id",
+    "response": "ApiResponse",
+    "http": [
+      200,
+      400,
+      404,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 54,
+    "method": "POST",
+    "path": "/api/datasource/{id}/test",
+    "ticket": 2,
+    "parameters": "@PathVariable Integer id",
+    "response": "ApiResponse",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 55,
+    "method": "GET",
+    "path": "/api/datasource/{id}/tables/{tableName}/columns",
+    "ticket": 2,
+    "parameters": "@PathVariable Integer id, @PathVariable String tableName",
+    "response": "ApiResponse<List<String>>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 56,
+    "method": "GET",
+    "path": "/api/datasource/{id}/logical-relations",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") Integer datasourceId",
+    "response": "ApiResponse<List<LogicalRelation>>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 57,
+    "method": "POST",
+    "path": "/api/datasource/{id}/logical-relations",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") Integer datasourceId, @Valid @RequestBody CreateLogicalRelationDTO dto",
+    "response": "ApiResponse<LogicalRelation>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 58,
+    "method": "PUT",
+    "path": "/api/datasource/{id}/logical-relations/{relationId}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") Integer datasourceId, @PathVariable Integer relationId, @RequestBody UpdateLogicalRelationDTO dto",
+    "response": "ApiResponse<LogicalRelation>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 59,
+    "method": "DELETE",
+    "path": "/api/datasource/{id}/logical-relations/{relationId}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") Integer datasourceId, @PathVariable Integer relationId",
+    "response": "ApiResponse<Void>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 60,
+    "method": "PUT",
+    "path": "/api/datasource/{id}/logical-relations",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") Integer datasourceId, @RequestBody List<LogicalRelation> logicalRelations",
+    "response": "ApiResponse<List<LogicalRelation>>",
+    "http": [
+      200,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
+  },
+  {
+    "id": 61,
+    "method": "GET",
+    "path": "/echo/ok",
+    "ticket": 1,
+    "parameters": "",
+    "response": "String",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/EchoController.java",
+    "sha256": "a8588e457f8cc6f6c30306dba577cd234305b2bf196ffceb7f6adef0f0c7c2a0"
+  },
+  {
+    "id": 62,
+    "method": "POST",
+    "path": "/api/upload/avatar",
+    "ticket": 6,
+    "parameters": "@RequestPart(\"file\") FilePart file",
+    "response": "Mono<ResponseEntity<UploadResponse>>",
+    "http": [
+      200,
+      400,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/FileUploadController.java",
+    "sha256": "c961f7edbcf5edaf32c294d347923233f1637434c4b41fef38b3b987d9940c00"
+  },
+  {
+    "id": 63,
+    "method": "GET",
+    "path": "/api/upload/**",
+    "ticket": 6,
+    "parameters": "ServerHttpRequest request",
+    "response": "ResponseEntity<byte[]>",
+    "http": [
+      200,
+      400,
+      403,
+      404,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/FileUploadController.java",
+    "sha256": "c961f7edbcf5edaf32c294d347923233f1637434c4b41fef38b3b987d9940c00"
+  },
+  {
+    "id": 64,
+    "method": "GET",
+    "path": "/api/stream/search",
+    "ticket": 3,
+    "parameters": "@RequestParam(\"agentId\") String agentId, @RequestParam(value = \"conversationId\", required = false) String conversationId, @RequestParam(value = \"threadId\", required = false) String threadId, @RequestParam(\"query\") String query, @RequestParam(value = \"humanFeedback\", required = false) boolean humanFeedback, @RequestParam(value = \"humanFeedbackContent\", required = false) String humanFeedbackContent, @RequestParam(value = \"rejectedPlan\", required = false) boolean rejectedPlan, @RequestParam(value = \"nl2sqlOnly\", required = false) boolean nl2sqlOnly, ServerHttpResponse response",
+    "response": "Flux<ServerSentEvent<GraphNodeResponse>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/GraphController.java",
+    "sha256": "2f0795a46193b7610218bfd8cdfc1ff401ed9592d52158213261e44b3305771f"
+  },
+  {
+    "id": 65,
+    "method": "POST",
+    "path": "/api/stream/stop",
+    "ticket": 8,
+    "parameters": "@RequestParam(\"conversationId\") String conversationId, @RequestParam(value = \"threadId\", required = false) String threadId",
+    "response": "ResponseEntity<Void>",
+    "http": [
+      204
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/GraphController.java",
+    "sha256": "2f0795a46193b7610218bfd8cdfc1ff401ed9592d52158213261e44b3305771f"
+  },
+  {
+    "id": 66,
+    "method": "GET",
+    "path": "/api/model-config/list",
+    "ticket": 1,
+    "parameters": "",
+    "response": "ApiResponse<List<ModelConfigDTO>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 67,
+    "method": "POST",
+    "path": "/api/model-config/add",
+    "ticket": 1,
+    "parameters": "@Valid @RequestBody ModelConfigDTO config",
+    "response": "ApiResponse<String>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 68,
+    "method": "PUT",
+    "path": "/api/model-config/update",
+    "ticket": 1,
+    "parameters": "@Valid @RequestBody ModelConfigDTO config",
+    "response": "ApiResponse<String>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 69,
+    "method": "DELETE",
+    "path": "/api/model-config/{id}",
+    "ticket": 1,
+    "parameters": "@PathVariable Integer id",
+    "response": "ApiResponse<String>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 70,
+    "method": "POST",
+    "path": "/api/model-config/activate/{id}",
+    "ticket": 1,
+    "parameters": "@PathVariable Integer id",
+    "response": "ApiResponse<String>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 71,
+    "method": "POST",
+    "path": "/api/model-config/test/{id}",
+    "ticket": 1,
+    "parameters": "@PathVariable Integer id",
+    "response": "ApiResponse<String>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 72,
+    "method": "GET",
+    "path": "/api/model-config/check-ready",
+    "ticket": 1,
+    "parameters": "",
+    "response": "ApiResponse<ModelCheckVo>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
+  },
+  {
+    "id": 73,
+    "method": "POST",
+    "path": "/api/prompt-config/save",
+    "ticket": 4,
+    "parameters": "@RequestBody PromptConfigDTO configDTO",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 74,
+    "method": "GET",
+    "path": "/api/prompt-config/{id}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") String id",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 75,
+    "method": "GET",
+    "path": "/api/prompt-config/list",
+    "ticket": 4,
+    "parameters": "",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 76,
+    "method": "GET",
+    "path": "/api/prompt-config/list-by-type/{promptType}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"promptType\") String promptType, @RequestParam(value = \"agentId\", required = false) Long agentId",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 77,
+    "method": "GET",
+    "path": "/api/prompt-config/active/{promptType}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"promptType\") String promptType, @RequestParam(value = \"agentId\", required = false) Long agentId",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 78,
+    "method": "GET",
+    "path": "/api/prompt-config/active-all/{promptType}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"promptType\") String promptType, @RequestParam(value = \"agentId\", required = false) Long agentId",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 79,
+    "method": "DELETE",
+    "path": "/api/prompt-config/{id}",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") String id",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 80,
+    "method": "POST",
+    "path": "/api/prompt-config/{id}/enable",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") String id",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 81,
+    "method": "POST",
+    "path": "/api/prompt-config/{id}/disable",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") String id",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 82,
+    "method": "GET",
+    "path": "/api/prompt-config/types",
+    "ticket": 4,
+    "parameters": "",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 83,
+    "method": "POST",
+    "path": "/api/prompt-config/batch-enable",
+    "ticket": 4,
+    "parameters": "@RequestBody List<String> ids",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 84,
+    "method": "POST",
+    "path": "/api/prompt-config/batch-disable",
+    "ticket": 4,
+    "parameters": "@RequestBody List<String> ids",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 85,
+    "method": "POST",
+    "path": "/api/prompt-config/{id}/priority",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") String id, @RequestBody Map<String, Object> requestBody",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 86,
+    "method": "POST",
+    "path": "/api/prompt-config/{id}/display-order",
+    "ticket": 4,
+    "parameters": "@PathVariable(value = \"id\") String id, @RequestBody Map<String, Object> requestBody",
+    "response": "ResponseEntity<Map<String, Object>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
+  },
+  {
+    "id": 87,
+    "method": "GET",
+    "path": "/api/semantic-model",
+    "ticket": 6,
+    "parameters": "@RequestParam(value = \"keyword\", required = false) String keyword, @RequestParam(value = \"agentId\", required = false) Long agentId",
+    "response": "ApiResponse<List<SemanticModel>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 88,
+    "method": "GET",
+    "path": "/api/semantic-model/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id",
+    "response": "ApiResponse<SemanticModel>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 89,
+    "method": "POST",
+    "path": "/api/semantic-model",
+    "ticket": 6,
+    "parameters": "@RequestBody @Validated SemanticModelAddDTO semanticModelAddDto",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 90,
+    "method": "PUT",
+    "path": "/api/semantic-model/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id, @RequestBody SemanticModel model",
+    "response": "ApiResponse<SemanticModel>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 91,
+    "method": "DELETE",
+    "path": "/api/semantic-model/{id}",
+    "ticket": 6,
+    "parameters": "@PathVariable(value = \"id\") Long id",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 92,
+    "method": "DELETE",
+    "path": "/api/semantic-model/batch",
+    "ticket": 6,
+    "parameters": "@RequestBody @NotEmpty(message = \"ID列表不能为空\") List<Long> ids",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 93,
+    "method": "PUT",
+    "path": "/api/semantic-model/enable",
+    "ticket": 6,
+    "parameters": "@RequestBody @NotEmpty(message = \"ID列表不能为空\") List<Long> ids",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 94,
+    "method": "PUT",
+    "path": "/api/semantic-model/disable",
+    "ticket": 6,
+    "parameters": "@RequestBody @NotEmpty(message = \"ID列表不能为空\") List<Long> ids",
+    "response": "ApiResponse<Boolean>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 95,
+    "method": "POST",
+    "path": "/api/semantic-model/batch-import",
+    "ticket": 6,
+    "parameters": "@RequestBody @Valid SemanticModelBatchImportDTO dto",
+    "response": "ApiResponse<BatchImportResult>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 96,
+    "method": "GET",
+    "path": "/api/semantic-model/template/download",
+    "ticket": 6,
+    "parameters": "",
+    "response": "ResponseEntity<byte[]>",
+    "http": [
+      200,
+      404,
+      500
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 97,
+    "method": "POST",
+    "path": "/api/semantic-model/import/excel",
+    "ticket": 6,
+    "parameters": "@RequestPart(\"file\") FilePart file, @RequestPart(\"agentId\") String agentId",
+    "response": "Mono<ApiResponse<BatchImportResult>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
+  },
+  {
+    "id": 98,
+    "method": "GET",
+    "path": "/api/agent/{agentId}/sessions/stream",
+    "ticket": 5,
+    "parameters": "@PathVariable Integer agentId, ServerHttpResponse response",
+    "response": "Flux<ServerSentEvent<SessionUpdateEvent>>",
+    "http": [
+      200
+    ],
+    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SessionEventController.java",
+    "sha256": "47d3f8b33fd4a2db52e77e950608538c682fd9107bc08da345766af03f6489cf"
+  }
+]

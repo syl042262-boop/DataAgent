@@ -1,0 +1,11 @@
+**
+!pyproject.toml
+!uv.lock
+!app/
+!app/**
+!migrations/
+!migrations/**
+!resources/
+!resources/**
+**/__pycache__/
+**/.env*
