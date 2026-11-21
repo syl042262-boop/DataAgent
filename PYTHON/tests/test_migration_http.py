@@ -33,8 +33,7 @@ def java_copy(tmp_path, monkeypatch, request):
         conn.exec_driver_sql(f"CREATE DATABASE `{name}` CHARACTER SET utf8mb4 COLLATE utf8mb4_bin")
     url = configured.set(database=name)
     engine = create_engine(url)
-    root = Path(__file__).resolve().parents[2]
-    scripts = root / "JAVA/data-agent-management/src/main/resources/sql"
+    scripts = Path(__file__).resolve().parent / "fixtures" / "migration"
     with engine.begin() as conn:
         for filename in ["schema.sql", "data.sql"]:
             for statement in sqlparse.split((scripts / filename).read_text(encoding="utf-8-sig")):

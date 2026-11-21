@@ -49,7 +49,7 @@ uv run uvicorn app.main:app --host 127.0.0.1 --port 8065 --workers 1
 在第二个 PowerShell 窗口从仓库根目录启动前端：
 
 ```powershell
-Set-Location JAVA/data-agent-frontend-nuxt
+Set-Location frontend
 $env:NUXT_PUBLIC_BACKEND = 'python'
 $env:DATAAGENT_PROXY_TARGET = 'http://127.0.0.1:8065'
 pnpm install --frozen-lockfile
@@ -61,13 +61,9 @@ pnpm dev
 | 路径 | 内容 |
 | --- | --- |
 | [`PYTHON/`](PYTHON/) | FastAPI 后端、LangGraph 查询流程、数据库迁移和测试 |
-| [`JAVA/data-agent-frontend-nuxt/`](JAVA/data-agent-frontend-nuxt/) | Nuxt 前端。保留原目录路径以兼容 Compose 和相关脚本 |
+| [`frontend/`](frontend/) | Nuxt 前端 |
 | [`compose.yaml`](compose.yaml) | 本地容器编排 |
 
 前端可运行 `pnpm run test:unit` 和 `pnpm run typecheck`。后端在 `PYTHON/` 下运行 `uv run pytest`，并通过 `DATAAGENT_TEST_DATABASE_URL` 指向允许创建和删除临时库的专用 MySQL 测试实例。部分集成测试还需要 Redis、PostgreSQL 或外部向量服务。
 
 管理库和 `PYTHON/data/` 分别存放业务配置、运行记录和本地文件、工作流检查点及本地知识索引，备份时应同时保留。
-
-## 许可证
-
-本项目基于 [Spring AI Alibaba DataAgent](https://github.com/spring-ai-alibaba/DataAgent)，采用 [Apache License 2.0](JAVA/LICENSE)。

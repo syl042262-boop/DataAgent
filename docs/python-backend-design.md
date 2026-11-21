@@ -4,7 +4,7 @@
 
 ## 1. 目标与边界
 
-目标是通过复刻现有项目学习 LangGraph。保留 `JAVA/` 源码及其运行方式，在根目录未来新增 `PYTHON/`，实现可独立运行的 FastAPI + LangGraph 后端。允许切换前端或网关入口；Python 服务不依赖运行中的 Java 服务。
+目标是通过复刻现有项目学习 LangGraph。在 `PYTHON/` 实现可独立运行的 FastAPI + LangGraph 后端。允许切换前端或网关入口；Python 服务不依赖运行中的 Java 服务。
 
 “1:1”指接口和业务行为兼容，不要求类逐一对应、模型回答逐字相同，或直接复用 Java 的序列化状态。最终范围覆盖现有管理业务及 AI 编排，并有以下已确认例外：
 
@@ -23,7 +23,7 @@
 
 ## 2. 源码依据
 
-源码路径均相对仓库根目录；下列文件所在 Java 包前缀为 `JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/`。
+后端源码路径相对于上游源码根目录，前端路径相对于本仓库根目录。上游 Java 包前缀为 `data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/`。
 
 | 依据 | 用途 |
 | --- | --- |
@@ -33,10 +33,10 @@
 | `workflow/node/ReportGeneratorNode.java` | 已直接读取 SQL 执行结果，无需依赖 Python 分析 |
 | `workflow/node/PlanExecutorNode.java`、`workflow/dispatcher/` | 工具白名单、计划校验、重试与反馈分支 |
 | `config/WebFluxSecurityConfiguration.java`、`security/` | Agent API key 校验及原有鉴权范围 |
-| `JAVA/data-agent-management/src/main/resources/sql/schema.sql`、`sql/h2/schema-h2.sql`（同 resources 目录）及 `mapper/` | 联合核对业务表、约束和实际读写；当前两套脚本均有 13 张业务表 |
-| `JAVA/data-agent-management/src/main/resources/application.yml` | 管理库、checkpoint、文件及向量默认配置 |
-| `JAVA/data-agent-frontend-nuxt/app/services/graph/index.ts` | 图请求参数、SSE 字段及终止处理 |
-| `JAVA/data-agent-frontend-nuxt/app/stores/chat.ts` | threadId 复用及人工反馈提交 |
+| `data-agent-management/src/main/resources/sql/schema.sql`、`sql/h2/schema-h2.sql`（同 resources 目录）及 `mapper/` | 联合核对业务表、约束和实际读写；当前两套脚本均有 13 张业务表 |
+| `data-agent-management/src/main/resources/application.yml` | 管理库、checkpoint、文件及向量默认配置 |
+| `frontend/app/services/graph/index.ts` | 图请求参数、SSE 字段及终止处理 |
+| `frontend/app/stores/chat.ts` | threadId 复用及人工反馈提交 |
 | `service/chat/SessionEventPublisher.java` | 标题更新事件与心跳 |
 
 Java 源码目前是工作区中的事实基线。接口清单保存源码摘要，后续源码改变时应重新核对，不将本次清单当作永久不变的契约。

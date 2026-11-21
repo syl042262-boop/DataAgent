@@ -1,4 +1,4 @@
-target/
+/JAVA/
 
 ### IntelliJ IDEA ###
 .idea/*
@@ -31,19 +31,13 @@ target/
 .env.*
 !.env.example
 
-# Maven ignore
-.flattened-pom.xml
-
 # node_modules
 **/node_modules
 
 
 # windows os
 /extensions/
-/h2-data/
 
-# checkstyle report files
-**/checkstyle-report.xml
 **/logs/*
 
 # SpecStory files - ignore entire .specstory directory
@@ -60,8 +54,6 @@ modified_mcp_config.json
 
 uploads/*
 /vectorstore/
-/data-agent-management/vectorstore/
-.java-version
 
 # spring-ai-alibaba source
 spring-ai-alibaba-1.1.0.0/

@@ -102,6 +102,6 @@ Standards 初始 P3 文档问题、Spec 初始 P2 历史文件引用清理问题
 
 ### 数据与运行范围
 
-用户未配置 Java 生产数据或 key，因此迁移来源为仓库 SQL 的独立示例副本，并显式复用 Python 已配模型凭据；legacy/bcrypt 使用独立临时测试值。没有对生产存量或未知密文兼容作承诺。Java 后端源码相对 42fc913 无改动，原启动说明及默认前端 java 模式保留；本轮没有启动未配置的 Java 后端。切回 Java 时停止 Python 8065，清除 NUXT_PUBLIC_BACKEND 并重启前端，再按 JAVA/README 启动 Java。
+用户未配置 Java 生产数据或 key，因此迁移来源为仓库 SQL 的独立示例副本，并显式复用 Python 已配模型凭据；legacy/bcrypt 使用独立临时测试值。没有对生产存量或未知密文兼容作承诺。
 
 本机隔离验收库、ES/Milvus 命名卷及 data/acceptance 中的报告保留用于复查，凭据和转储均在忽略范围。运行只支持单 worker、本地文件以及 MySQL/PostgreSQL，不新增 OSS 或其他业务数据源。

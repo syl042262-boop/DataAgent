@@ -1,6 +1,6 @@
 # Java 框架表单列清单
 
-按 JAVA/pom.xml 固定 Spring AI 1.1.2、Spring AI Alibaba 1.1.2.2 核对，不计入 13 张业务表，也不执行到 Python 管理库。
+按上游 pom.xml 固定 Spring AI 1.1.2、Spring AI Alibaba 1.1.2.2 核对，不计入 13 张业务表，也不执行到 Python 管理库。
 
 |框架表|字段/索引与归属|迁移决定|
 |---|---|---|

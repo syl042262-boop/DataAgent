@@ -9,7 +9,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -23,7 +23,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -36,7 +36,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -50,7 +50,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -64,7 +64,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -78,7 +78,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -92,7 +92,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -106,7 +106,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -120,7 +120,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -134,7 +134,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -148,7 +148,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -162,7 +162,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentController.java",
     "sha256": "c2d091a2c332f0c122a773b51d47458ee3abe8a892ae494359e74e6c1ed81a98"
   },
   {
@@ -177,7 +177,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -191,7 +191,7 @@
       200,
       400
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -205,7 +205,7 @@
       200,
       400
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -220,7 +220,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -234,7 +234,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -248,7 +248,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -263,7 +263,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentDatasourceController.java",
     "sha256": "9ebd63c0ee86ddb12df766ce8b526c00a871658197c2a1bee7878261490452ea"
   },
   {
@@ -276,7 +276,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -289,7 +289,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -302,7 +302,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -315,7 +315,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -328,7 +328,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -341,7 +341,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -354,7 +354,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentKnowledgeController.java",
     "sha256": "d10b4da0c6696d9720d37dc93e6149ef561dfe4245d399240249366e9b2efec2"
   },
   {
@@ -368,7 +368,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
     "sha256": "ddb90d55c760ca47d27c088065e276e1f87376da7d42e39ce45d4d486db1b5a9"
   },
   {
@@ -382,7 +382,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
     "sha256": "ddb90d55c760ca47d27c088065e276e1f87376da7d42e39ce45d4d486db1b5a9"
   },
   {
@@ -396,7 +396,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/AgentPresetQuestionController.java",
     "sha256": "ddb90d55c760ca47d27c088065e276e1f87376da7d42e39ce45d4d486db1b5a9"
   },
   {
@@ -409,7 +409,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -422,7 +422,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -435,7 +435,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -448,7 +448,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -461,7 +461,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -474,7 +474,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -487,7 +487,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -500,7 +500,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/BusinessKnowledgeController.java",
     "sha256": "2be1e5709aaa3f0a2fad801a6a08e9785e86e02b7b7ff08ec4140e9d5d3b98ae"
   },
   {
@@ -513,7 +513,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -526,7 +526,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -539,7 +539,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -552,7 +552,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -567,7 +567,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -581,7 +581,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -596,7 +596,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -610,7 +610,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -625,7 +625,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ChatController.java",
     "sha256": "0f7bd2330e453697029e3a434addce39af4376eb33b0536fcdc5599d317a8292"
   },
   {
@@ -638,7 +638,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -651,7 +651,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -665,7 +665,7 @@
       200,
       404
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -680,7 +680,7 @@
       404,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -694,7 +694,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -709,7 +709,7 @@
       404,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -725,7 +725,7 @@
       404,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -739,7 +739,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -753,7 +753,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -767,7 +767,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -781,7 +781,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -795,7 +795,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -809,7 +809,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -823,7 +823,7 @@
       200,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/DatasourceController.java",
     "sha256": "7d27330d49902f49ddec1591dfd4534d31716060c66c5c051dac33c1628682d4"
   },
   {
@@ -836,7 +836,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/EchoController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/EchoController.java",
     "sha256": "a8588e457f8cc6f6c30306dba577cd234305b2bf196ffceb7f6adef0f0c7c2a0"
   },
   {
@@ -851,7 +851,7 @@
       400,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/FileUploadController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/FileUploadController.java",
     "sha256": "c961f7edbcf5edaf32c294d347923233f1637434c4b41fef38b3b987d9940c00"
   },
   {
@@ -868,7 +868,7 @@
       404,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/FileUploadController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/FileUploadController.java",
     "sha256": "c961f7edbcf5edaf32c294d347923233f1637434c4b41fef38b3b987d9940c00"
   },
   {
@@ -881,7 +881,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/GraphController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/GraphController.java",
     "sha256": "2f0795a46193b7610218bfd8cdfc1ff401ed9592d52158213261e44b3305771f"
   },
   {
@@ -894,7 +894,7 @@
     "http": [
       204
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/GraphController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/GraphController.java",
     "sha256": "2f0795a46193b7610218bfd8cdfc1ff401ed9592d52158213261e44b3305771f"
   },
   {
@@ -907,7 +907,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -920,7 +920,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -933,7 +933,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -946,7 +946,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -959,7 +959,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -972,7 +972,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -985,7 +985,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/ModelConfigController.java",
     "sha256": "044e4d6974f0480de7b6666a1d2994dc2fd8dcc9cf03d0776fbc78b34ea90ade"
   },
   {
@@ -998,7 +998,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1011,7 +1011,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1024,7 +1024,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1037,7 +1037,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1050,7 +1050,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1063,7 +1063,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1076,7 +1076,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1089,7 +1089,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1102,7 +1102,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1115,7 +1115,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1128,7 +1128,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1141,7 +1141,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1154,7 +1154,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1167,7 +1167,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/PromptConfigController.java",
     "sha256": "43810c9cd211c0caca427834663b104281b3e9086a3795e3aef62046b3cc20df"
   },
   {
@@ -1180,7 +1180,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1193,7 +1193,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1206,7 +1206,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1219,7 +1219,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1232,7 +1232,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1245,7 +1245,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1258,7 +1258,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1271,7 +1271,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1284,7 +1284,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1299,7 +1299,7 @@
       404,
       500
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1312,7 +1312,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SemanticModelController.java",
     "sha256": "6bb2a301c4e27e6aa6161cb150d7a804ac93f3559125c698cc59f9b9df5fb568"
   },
   {
@@ -1325,7 +1325,7 @@
     "http": [
       200
     ],
-    "source": "JAVA/data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SessionEventController.java",
+    "source": "data-agent-management/src/main/java/com/alibaba/cloud/ai/dataagent/controller/SessionEventController.java",
     "sha256": "47d3f8b33fd4a2db52e77e950608538c682fd9107bc08da345766af03f6489cf"
   }
 ]

@@ -16,7 +16,7 @@
 
 ## 检查命令
 
-在 PYTHON/ 执行：`uv run pytest`、`uv run mypy app tools`、`uv run ruff check app tests tools`、`uv run python tools/verify_saver.py`、`uv run python tools/build_baseline.py`。完整依赖锁见 uv.lock，运行方式见 README。
+在 PYTHON/ 执行：`uv run pytest`、`uv run mypy app tools`、`uv run ruff check app tests tools`、`uv run python tools/verify_saver.py`。完整依赖锁见 uv.lock，运行方式见 README。
 
 ## 明确边界
 

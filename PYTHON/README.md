@@ -16,7 +16,7 @@
 
 ## Ticket 02 配置流程
 
-前端在 `JAVA/data-agent-frontend-nuxt` 运行前设置 `$env:NUXT_PUBLIC_BACKEND='python'`，然后 `npm run dev`。默认值 `java` 保留原模式；切回时移除此环境变量并重启前端。新建 Agent 后，在管理列表点击“配置”，或进入 `/agent/{id}`：保存信息、发布/下线、生成或重置密钥、启用/关闭鉴权、设置每行一个预设问题。问答页点击预设问题只填入输入框。删除 Agent 和历史清理已完成，存在非终态时整体返回 409。
+前端在 `frontend` 运行前设置 `$env:NUXT_PUBLIC_BACKEND='python'`，然后运行 `pnpm dev`。新建 Agent 后，在管理列表点击“配置”，或进入 `/agent/{id}`：保存信息、发布/下线、生成或重置密钥、启用/关闭鉴权、设置每行一个预设问题。问答页点击预设问题只填入输入框。删除 Agent 和历史清理已完成，存在非终态时整体返回 409。
 
 在“数据连接”新增 MySQL 数据源并测试，在 Agent 配置页绑定、选择表、保存并初始化 Schema。初始化读取真实表列并将快照保存到 `python_agent_schema`，供后续查询使用；知识本地检索由 Ticket 06 接入。改选表、重新绑定、修改数据源会清除旧快照；解绑和删除数据源通过外键清理选表及快照。绑定会激活该源并关闭其他源，重复绑定沿用 Java 行为清空原选表。toggle 启用时存在其他活动源会拒绝，须先禁用。PostgreSQL 已在 Ticket 04 完成连接、元数据与方言查询；其他类型明确拒绝。
 
@@ -54,7 +54,7 @@ uv run uvicorn app.main:app --host 127.0.0.1 --port 8065 --workers 1
 
 本次验收已创建本机容器 `dataagent-ticket01-mysql`，映射 `127.0.0.1:13306`，当前 `.env` 指向其中独立的 `dataagent_python` 库。容器停止后可用 `docker start dataagent-ticket01-mysql` 恢复；不要删除容器后期待其中配置仍在。
 
-模型配置页兼容原接口：关闭 Java 8065 服务，进入 `JAVA/data-agent-frontend-nuxt` 启动前端，访问 `http://localhost:3000/system/model-config`；原代理指向 8065。管理页面可以保存、编辑、删除非激活模型、设置默认及连接测试；Java 后端源码未修改。切回 Java 时停止 Python 并按 JAVA/README 启动 Java。同一时间只让一个后端占用 8065；查询图与会话历史已可使用；知识与文件接口已在 Ticket 06 完成。
+按根目录 README 启动前端后，进入模型配置页（`/system/model-config`）。管理页面可以保存、编辑、删除非激活模型、设置默认及测试连接。
 
 ## 模型配置
 
@@ -82,7 +82,6 @@ uv run pytest
 uv run mypy app tools
 uv run ruff check app tests tools
 uv run python tools/verify_saver.py
-uv run python tools/build_baseline.py
 ```
 
 测试通过 HTTP 验证真实 MySQL 的重启持久化、密钥保留、两种模型调用、配置类型约束、激活/删除及错误脱敏；外部供应商边界使用可控 HTTP 服务。真实供应商及页面验证单独记录在 [验收记录](../docs/python-ticket01-validation.md)。
@@ -99,7 +98,7 @@ uv run python tools/build_baseline.py
 
 ## 离线 Java 副本导入（Ticket 09）
 
-先停止目标 Python 服务，准备全新的专用管理库和独立 `DATAAGENT_DATA_DIR`。将 Java 管理库复制到另一个 MySQL schema；源连接使用只读账户，不能让两个应用共享写库。源数据库必须包含全部 13 张业务表。不要把业务查询库当管理源库。Java 无存量数据时，可在独立 schema 执行仓库的 `JAVA/data-agent-management/src/main/resources/sql/schema.sql` 和 `data.sql` 建立示例副本；示例的数据库主机/连接参数必须在管理页面重新配置。
+先停止目标 Python 服务，准备全新的专用管理库和独立 `DATAAGENT_DATA_DIR`。将 Java 管理库复制到另一个 MySQL schema；源连接使用只读账户，不能让两个应用共享写库。源数据库必须包含全部 13 张业务表。不要把业务查询库当管理源库。Java 无存量数据时，可在独立 schema 执行仓库中 [迁移测试夹具](tests/fixtures/migration/)里的 `schema.sql` 和 `data.sql` 建立示例副本；示例的数据库主机/连接参数必须在管理页面重新配置。
 
 在 `PYTHON/` 的本机环境配置 `DATAAGENT_MIGRATION_SOURCE_URL`（指向副本，不要把含密码的命令保存到脚本或提交），目标仍由 `.env` 中的 `DATAAGENT_DATABASE_URL` 决定。执行：
 
